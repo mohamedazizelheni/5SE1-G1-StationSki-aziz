@@ -4,7 +4,6 @@ import com.example.stationski.entities.Inscription;
 import com.example.stationski.entities.Skieur;
 import com.example.stationski.entities.Support;
 import com.example.stationski.services.IInscriptionService;
-import io.swagger.v3.oas.annotations.Operation;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,7 +11,7 @@ import java.time.LocalDate;
 import java.util.List;
 
 @RestController
- @AllArgsConstructor
+@AllArgsConstructor
 @RequestMapping("/inscription")
 
 public class InscriptionController {
